@@ -33,6 +33,7 @@
           src="https://img.icons8.com/?size=100&id=62856&format=png&color=000000"
           alt="github"
           class="h-10 w-auto absolute right-0"
+          @click="goToGitHub"
       >
     </div>
   </nav>
@@ -90,6 +91,11 @@ export default {
       loading: true,
       pagePv: 0,
       pageUv: 0
+    }
+  },
+  methods:{
+    goToGitHub(){
+      window.open('https://github.com/Bear-biscuit/ID_SharedWeb', '_blank');
     }
   },
   async created() {
