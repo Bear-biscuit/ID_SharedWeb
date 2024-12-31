@@ -9,20 +9,20 @@
 
 <script lang="ts" setup>
 const urlList =[
-        {'url': 'src/img/img1.jpg', 'title': `点击'右上角头像'`},
-        {'url': 'src/img/img2.jpg', 'title': `点击'退出登录'`},
-        {'url': 'src/img/img3.jpg', 'title': `点击'通过Apple账户登录'`},
-        {'url': 'src/img/img4.jpg', 'title': `输入复制的账号密码`},
-        {'url': 'src/img/img5.jpg', 'title': `点击'其他选项'`},
-        {'url': 'src/img/img6.jpg', 'title': `点击'不升级'`}
+        {'url': 'public/img/img1.jpg', 'title': `点击'右上角头像'`},
+        {'url': 'public/img/img2.jpg', 'title': `点击'退出登录'`},
+        {'url': 'public/img/img3.jpg', 'title': `点击'通过Apple账户登录'`},
+        {'url': 'public/img/img4.jpg', 'title': `输入复制的账号密码`},
+        {'url': 'public/img/img5.jpg', 'title': `点击'其他选项'`},
+        {'url': 'public/img/img6.jpg', 'title': `点击'不升级'`}
     ]
 const srcList = [
-  'src/img/img1.jpg',
-  'src/img/img2.jpg',
-  'src/img/img3.jpg',
-  'src/img/img4.jpg',
-  'src/img/img5.jpg',
-  'src/img/img6.jpg',
+  'public/img/img1.jpg',
+  'public/img/img2.jpg',
+  'public/img/img3.jpg',
+  'public/img/img4.jpg',
+  'public/img/img5.jpg',
+  'public/img/img6.jpg',
 ]
 </script>
 

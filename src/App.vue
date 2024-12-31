@@ -24,7 +24,7 @@
   <nav class="flex items-center justify-between w-full px-6 py-4 bg-white shadow-md">
     <div class="flex items-center space-x-4 w-full relative">
       <img
-          src="../public/ShadowRocket.icon"
+          src="../public/ShadowRocket.png"
           alt="Logo"
           class="h-10 w-auto"
       />
