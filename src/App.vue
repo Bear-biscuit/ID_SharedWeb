@@ -52,6 +52,7 @@
             :availability="account.status"
             :account="account.email"
             :password="account.password"
+            :country="account.country"
         />
       </div>
     </el-scrollbar>

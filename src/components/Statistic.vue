@@ -9,18 +9,16 @@
   </el-row>
 </template>
 
-<script lang="ts" setup>
+<script setup>
 import {ref, watch} from 'vue'
 import { useTransition } from '@vueuse/core'
 
-// 定义 props 的类型
-interface Props {
-  pv: number;
-  uv: number;
-}
 
 // 使用 defineProps 来定义 props
-const props = defineProps<Props>()
+const props = defineProps({
+  pv:Number,
+  uv:Number
+})
 
 // 创建一个 ref 来跟踪 source 值
 const sourcepv = ref(props.pv)
